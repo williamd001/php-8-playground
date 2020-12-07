@@ -21,7 +21,7 @@ class Profile
  * $replyCount = (new User())->profile()->replyCount();
  * */
 
-// the nullsafe operator ?-> in the example below it will return null
+// the nullsafe operator ?-> in the example below will return null
 $replyCount = (new User())->profile()?->replyCount();
 
 var_dump($replyCount);
